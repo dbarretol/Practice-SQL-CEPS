@@ -12,7 +12,7 @@ Usar para la base de datos NorthWind para:
 
 Prueba: `EXEC GetCustomersByCountry @Country = 'Germany';`
 
-![Test01](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test01.png)
+![Test01](./recursos/Test01.png)
 
 2.	Crear un procedimiento que determine la cantidad de clientes cuyo identificador (o sea el código) inicia con un determinado carácter.
 
@@ -20,7 +20,7 @@ Prueba: `EXEC GetCustomersByCountry @Country = 'Germany';`
 
 Prueba: `EXEC GetCustomerCountByInitial @Initial = 'A';`
 
-![Test02](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test02.png)
+![Test02](./recursos/Test02.png)
 
 3.	Realizar un procedimiento que determine la cantidad de registros que un cliente está en la tabla ORDERS.
 
@@ -28,7 +28,7 @@ Prueba: `EXEC GetCustomerCountByInitial @Initial = 'A';`
 
 Prueba: `EXEC GetOrderCountByCustomer @CustomerID = 'ALFKI';`
 
-![Test03](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test03.png)
+![Test03](./recursos/Test03.png)
 
 4.	Realizar una base de datos similar a Northwind, pero que los nombre de tablas, campos y registros estén en castellano.
 
@@ -40,7 +40,7 @@ Prueba: `EXEC GetOrderCountByCustomer @CustomerID = 'ALFKI';`
 
 Prueba: `EXEC GetAllProductsAndCategories;`
 
-![Test05](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test05.png)
+![Test05](./recursos/Test05.png)
 
 6.	Realizar un procedimiento que seleccione todos los productos que no corresponde a la categoría bebidas (1)
 
@@ -48,7 +48,7 @@ Prueba: `EXEC GetAllProductsAndCategories;`
 
 Prueba: `EXEC GetProductsNotInBeverages;`
 
-![Test06](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test06.png)
+![Test06](./recursos/Test06.png)
 
 7.	Realizar un procedimiento que obtenga la cantidad de registros que no corresponde a condimentos
 
@@ -56,7 +56,7 @@ Prueba: `EXEC GetProductsNotInBeverages;`
 
 Prueba: `EXEC GetCountOfNonCondimentProducts;`
 
-![Test07](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test07.png)
+![Test07](./recursos/Test07.png)
 
 8.	Realizar un procedimiento que seleccionar todos los campos de los registros que no corresponden a categoría mariscos de la tabla productos.
 
@@ -64,7 +64,7 @@ Prueba: `EXEC GetCountOfNonCondimentProducts;`
 
 Prueba: `EXEC GetProductsNotInSeafood;`
 
-![Test08](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test08.png)
+![Test08](./recursos/Test08.png)
 
 9.	Realizar un procedimiento que seleccionar los campos nombre del producto y precio (únicamente) de los  productos diferentes a cárnicos.
 
@@ -72,7 +72,7 @@ Prueba: `EXEC GetProductsNotInSeafood;`
 
 Prueba: `EXEC GetNonMeatProductsNameAndPrice;`
 
-![Test09](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test09.png)
+![Test09](./recursos/Test09.png)
 
 10.	Realizar un procedimiento que obtenga la cantidad de productos granos y cereales.
 
@@ -80,7 +80,7 @@ Prueba: `EXEC GetNonMeatProductsNameAndPrice;`
 
 Prueba: `EXEC GetCountOfGrainsAndCerealsProducts;`
 
-![Test10](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test10.png)
+![Test10](./recursos/Test10.png)
 
 11.	Realizar un procedimiento que seleccionar los campos nombre del producto y precio (únicamente) de los quesos y productos cárnicos.
 
@@ -88,7 +88,7 @@ Prueba: `EXEC GetCountOfGrainsAndCerealsProducts;`
 
 Prueba: `EXEC GetCheeseAndMeatProductsNameAndPrice;`
 
-![Test11](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test11.png)
+![Test11](./recursos/Test11.png)
 
 12.	Realizar un procedimiento que seleccionar los campos nombre del producto, precio y stock (únicamente) de las frutas secas y mariscos.
 
@@ -96,7 +96,7 @@ Prueba: `EXEC GetCheeseAndMeatProductsNameAndPrice;`
 
 Prueba: `EXEC GetDriedFruitsAndSeafoodDetails;`
 
-![Test12](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test12.png)
+![Test12](./recursos/Test12.png)
 
 13.	Realizar un procedimiento que seleccionar el promedio de los precios de los confites.
 
@@ -104,4 +104,4 @@ Prueba: `EXEC GetDriedFruitsAndSeafoodDetails;`
 
 Prueba: `EXEC GetAveragePriceOfConfections;`
 
-![Test13](https://raw.githubusercontent.com/dbarretol/Practice-SQL-CEPS/refs/heads/main/Actividad%2002/recursos/Test13.png)
+![Test13](./recursos/Test13.png)
