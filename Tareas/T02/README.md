@@ -43,7 +43,12 @@ Prueba:
 ---
 ### 4.	Realizar una base de datos similar a Northwind, pero que los nombre de tablas, campos y registros estén en castellano.
 
-**Pendiente**
+[Procedimiento 04](./scripts/proc04.sql)
+
+Prueba:
+```EXEC CrearBaseDeDatosNorthwindESP;```
+
+![Test04](./recursos/Test04.png)
 
 ---
 ### 5.	Realizar un procedimiento que seleccione todos los registros de tabla Productos y Categories a la vez.

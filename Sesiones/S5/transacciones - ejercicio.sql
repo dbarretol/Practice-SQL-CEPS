@@ -46,7 +46,7 @@ GO
 -- Prueba:
 SP_NUEVOPROVEEDOR 'PR21', 'TAI LOY', 'AV. UNIVERSITARIA','6544555', 'D02', 'JUAN FUIGUEROA'
 
--- *************** Tambi�n se puede usar la siguiente sentencia BEGIN TRY y BEGIN CATCH.  *************** 
+-- *************** También se puede usar la siguiente sentencia BEGIN TRY y BEGIN CATCH.  *************** 
 
 CREATE PROCEDURE SP_NUEVOPROVEEDOR2(
     @COD CHAR(5),
