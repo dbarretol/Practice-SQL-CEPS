@@ -1,0 +1,25 @@
+USE DBL
+GO
+
+-- 6. Procedimiento almacenado que permita mostrar información del detalle de alquiler, de acuerdo al número de alquiler.
+IF OBJECT_ID('SP_DETALLEALQUILER') IS NOT NULL
+    DROP PROCEDURE SP_DETALLEALQUILER
+GO
+
+CREATE PROCEDURE SP_DETALLEALQUILER (
+    @NUMERO INT
+)
+AS
+BEGIN
+    SELECT D.NUM_ALQ AS ALQUILER,
+           C.NOM_CLI + SPACE(1) + C.APE_CLI AS CLIENTE,
+           D.MAT_AUT AS MATRICULA
+    FROM DETALLEALQUILER D
+    JOIN CLIENTE C ON D.IDE_CLI = C.IDE_CLI
+    WHERE D.NUM_ALQ = @NUMERO
+END
+GO
+
+-- PRUEBA
+EXEC SP_DETALLEALQUILER '2'
+GO
